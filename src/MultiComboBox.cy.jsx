@@ -12,6 +12,6 @@ describe('MultiComboBox', () => {
 
         // cy.wait(1000);
 
-        cy.get('[data-testid="mcb"]').shadow().get('#ui5-multi-combobox-input').type('i', { force: true, delay: 200 });
+        cy.get('[data-testid="mcb"]').shadow().get('#ui5-multi-combobox-input').type('i', { force: true });
     });
 });
